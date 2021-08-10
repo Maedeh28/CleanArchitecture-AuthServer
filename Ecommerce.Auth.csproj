@@ -1,0 +1,22 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Folder Include="Application\Common\Behaviours\" />
+    <Folder Include="Application\Common\Exceptions\" />
+    <Folder Include="Application\Common\Mappings\" />
+    <Folder Include="Application\Common\Models\" />
+    <Folder Include="Infrastructutre\Helpers\" />
+    <Folder Include="Infrastructutre\Services\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="IdentityServer4.EntityFramework.Storage" Version="4.1.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="5.0.8" />
+  </ItemGroup>
+
+
+</Project>
