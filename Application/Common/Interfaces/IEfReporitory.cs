@@ -7,7 +7,7 @@ namespace Ecommerce.Auth.Application.Common.Interfaces
     {
         Task<T> GetByIdAsync(int id);
 
-        Task<IReadOnlyList<T>> ListAsync();
+        Task<IReadOnlyList<T>> GetAll();
 
         Task<T> AddAsync(T entity);
 

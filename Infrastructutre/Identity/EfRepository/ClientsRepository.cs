@@ -35,7 +35,7 @@ namespace Ecommerce.Auth.Infrastructutre.Identity.EfRepository
             return await _applicationDb.Set<Client>().FindAsync(id);
         }
 
-        public async Task<IReadOnlyList<Client>> ListAsync()
+        public async Task<IReadOnlyList<Client>> GetAll()
         {
             return await _applicationDb.Set<Client>().ToListAsync();
         }
